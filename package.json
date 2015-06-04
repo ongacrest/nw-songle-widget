@@ -1,0 +1,20 @@
+{
+    "name": "nw-songle-widget",
+    "main": "index.html",
+    "window": {
+        "show": true,
+        "position": "center",
+        "toolbar": false,
+        "width": 300,
+        "height": 300
+    },
+    "dependencies": {
+        "nw": "^0.12.2"
+    },
+    "scripts": {
+        "start": "node_modules/.bin/nw ."
+    },
+    {
+        "license" : "MIT"
+    }
+}
