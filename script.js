@@ -10,7 +10,7 @@ w.on('new-win-policy', function(frame, url, policy) {
 });
 
 window.onSongleWidgetReady = function(apiKey, songleWidget) {
-  ['repeatSegmentEnter', 'chorusSemgnetEnter'].forEach(function(name) {
+  ['repeatSegmentEnter', 'chorusSegmentEnter'].forEach(function(name) {
     songleWidget.on(name, function(e) {
       notifier.notify({
         'title': 'Songle Widget',
